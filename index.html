@@ -2,13 +2,41 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>P'tit Journal 974</title>
-    <script type="module" crossorigin src="./assets/index-DgFGBGir.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-B_CmQs-a.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <header class="site-header">
+      <div class="container header-row">
+        <div>
+          <p class="eyebrow">Journal pour enfants</p>
+          <h1>P'tit Journal 974</h1>
+        </div>
+        <p class="header-text">L'actualité de La Réunion expliquée simplement pour les élèves de CE2.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h2>Les nouvelles de ton île</h2>
+        <p>Choisis un article pour lire les infos importantes sur le volcan, les baleines et le letchi.</p>
+      </section>
+
+      <section id="cards" class="cards" aria-label="Liste des articles"></section>
+
+      <article id="article-view" class="article-view" hidden>
+        <button id="back-button" class="back-button" type="button">← Retour aux articles</button>
+        <div id="article-content"></div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 - P'tit Journal 974 - Fait avec cœur pour les enfants de La Réunion.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
-</html>
+  </html>
