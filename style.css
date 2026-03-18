@@ -124,8 +124,9 @@ img {
   font-size: 1.02rem;
 }
 
-.card button,
-.back-button {
+.button-link {
+  display: inline-block;
+  text-decoration: none;
   border: 0;
   border-radius: 999px;
   background: var(--accent);
@@ -134,24 +135,20 @@ img {
   font-size: 1rem;
   cursor: pointer;
   transition: transform 140ms ease, background 140ms ease;
-}
-
-.card button {
   margin-top: auto;
   align-self: start;
 }
 
-.card button:hover,
-.back-button:hover {
+.button-link:hover {
   background: #ea580c;
   transform: translateY(-1px);
 }
 
-.article-view {
-  padding-bottom: 48px;
+.article-page {
+  padding: 28px 0 48px;
 }
 
-.back-button {
+.back-link {
   margin-bottom: 20px;
 }
 
