@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+}
+
+.article-content p {
+  font-size: 1.2rem; /* Texte plus gros pour une meilleure lisibilité */
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.lead {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
